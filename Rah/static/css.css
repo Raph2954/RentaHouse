@@ -1,0 +1,30 @@
+.navbar {
+        background-image: linear-gradient(transparent,gray());
+        padding: .5em 0 2em;
+        margin-left: 45px;
+        margin-right: 45px;
+        border-radius: .3em;
+        text-align-all: right;
+        font-family: "Droid Serif", "DejaVu Serif", "STIX", serif
+        }
+
+        .container {
+        border-radius: .4em;
+        background-image: linear-gradient(oldlace,transparent);
+        text-align:left;
+        padding: 4em 2em 1em 2em;
+        color: white;
+        margin-right: 45px;
+
+        }
+        .search {
+            border-radius: .4em;
+            background-color: transparent;
+            margin-left: 40px;
+            margin-right: 40px;
+            color: white;
+        }
+
+        .service .glyphicon {
+        font-size: 5em;
+        }

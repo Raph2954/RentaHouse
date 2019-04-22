@@ -1,0 +1,21 @@
+
+{% extends "base.html" %}
+
+{% block title %} Dashboard{% endblock %}
+
+{% block content %}
+    <div class="navbar-collapse ">
+    <div class="col-md-5 text-capitalize glyphicon-dashboard">
+        <h3 class="shadow p-3 mb-5 bg-#34495e rounded text-info">Dashboard</h3>
+
+        <p class="glyphicon-dashboard text-success"><em>Hello {{ user.first_name }}, Welcome to your dashboard</em></p>
+        <p><a class="text-white" href="#">your Info</a></p>
+        <p><a class="glyphicon-education shadow col-lg-4 mb-5 bg-#34495e rounded text-info" href="#">Input students result</a></p>
+        <p><a class="glyphicon-adjust shadow col-lg-4 mb-5 bg-#34495e rounded text-info" href="#">All students</a></p>
+        <p><a class="glyphicon-adjust shadow col-lg-4 mb-5 bg-#34495e rounded text-info" href="#">All students Details</a></p>
+        <p><a class="glyphicon-adjust shadow col-lg-4 mb-5 bg-#34495e rounded text-info" href="#">Account settings</a></p>
+
+    </div>
+
+    </div>
+{% endblock %}
